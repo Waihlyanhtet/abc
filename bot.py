@@ -8,11 +8,11 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 # ── Environment variables ─────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("8731522259:AAF0sc64RJ7p2nWDV96_1SGzVq3_XvgMsIA", "")
+BOT_TOKEN = "8731522259:AAF0sc64RJ7p2nWDV96_1SGzVq3_XvgMsIA"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 REPO_OWNER = os.getenv("REPO_OWNER", "")
 REPO_NAME = os.getenv("REPO_NAME", "")
-ADMIN_ID = os.getenv("8766883390", "")
+ADMIN_ID ="8766883390"
 
 # ── Global structures ─────────────────────────────────────────────────────
 SUCCESS_CODE = asyncio.Queue()

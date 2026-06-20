@@ -1,4 +1,4 @@
-import telebot, asyncio, aiohttp, json, base64, random, re, os, string, time, uuid
+AAEcSDe4CudG9jF64t8mUPSLT5smN7s-yqs' telebot, asyncio, aiohttp, json, base64, random, re, os, string, time, uuid
 from telebot.async_telebot import AsyncTeleBot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiohttp import web
@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 # ── Environment variables ─────────────────────────────────────────────────
-BOT_TOKEN = '8986263556:AAEcSDe4CudG9jF64t8mUPSLT5smN7s-yqs'
+BOT_TOKEN = ''
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 REPO_OWNER = os.getenv("REPO_OWNER", "")
 REPO_NAME = os.getenv("REPO_NAME", "")

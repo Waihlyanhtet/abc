@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 # ── Environment variables ─────────────────────────────────────────────────
-BOT_TOKEN = "8731522259:AAF0sc64RJ7p2nWDV96_1SGzVq3_XvgMsIA"
+BOT_TOKEN = '8986263556:AAEcSDe4CudG9jF64t8mUPSLT5smN7s-yqs'
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 REPO_OWNER = os.getenv("REPO_OWNER", "")
 REPO_NAME = os.getenv("REPO_NAME", "")

@@ -1,4 +1,4 @@
-get telebot, asyncio, aiohttp, json, base64, random, re, os, string, time, uuid
+import get telebot, asyncio, aiohttp, json, base64, random, re, os, string, time, uuid
 from telebot.async_telebot import AsyncTeleBot
 from aiohttp import web
 import cv2

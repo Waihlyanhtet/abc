@@ -537,7 +537,7 @@ def format_progress(checked, total=None, speed=0, found=0, retries=0):
         f"📊Status : running\n"
     )
 
-BATCH_SIZE = 100
+BATCH_SIZE = 50
 
 def _captcha_entry(chat_id):
     if chat_id not in captcha_state:

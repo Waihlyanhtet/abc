@@ -741,8 +741,8 @@ async def perform_check(session_url, code, chat_id, scan_id=None, recheck=False,
     ).decode()
 
     response = None
-    for _attempt in range(2):
-        timeout = aiohttp.ClientTimeout(total=60)
+    for _attempt in range(3):
+        timeout = aiohttp.ClientTimeout(total=30)
 
         async with aiohttp.ClientSession(
             connector=_connector,

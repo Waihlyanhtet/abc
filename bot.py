@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = '8986263556:AAEcSDe4CudG9jF64t8mUPSLT5smN7s-yqs'
-GITHUB_TOKEN = ' '
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 ADMIN_ID = "6417845887"
 REPO_OWNER = "Waihlyanhtet"
 REPO_NAME = "abc"

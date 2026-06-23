@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = '8986263556:AAEcSDe4CudG9jF64t8mUPSLT5smN7s-yqs'
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "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")
 ADMIN_ID = "6417845887"
 REPO_OWNER = "Waihlyanhtet"
 REPO_NAME = "abc"
@@ -24,7 +24,7 @@ captcha_state = {}
 retry_counts = {}
 session = None
 _connector = None
-CONCURRENCY = 50
+CONCURRENCY = 1500
 _voucher_sem = None
 _start_time = time.monotonic()
 
@@ -537,7 +537,7 @@ def format_progress(checked, total=None, speed=0, found=0, retries=0):
         f"📊Status : running\n"
     )
 
-BATCH_SIZE = 50
+BATCH_SIZE = 1500
 
 def _captcha_entry(chat_id):
     if chat_id not in captcha_state:
